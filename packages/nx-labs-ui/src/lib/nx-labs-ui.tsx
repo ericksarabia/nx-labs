@@ -6,7 +6,7 @@ export interface NxLabsUiProps {}
 export function NxLabsUi(props: NxLabsUiProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to NxLabsUi!</h1>
+      <h1>Welcome to {process.env.NX_LABS_UI}</h1>
     </div>
   );
 }
